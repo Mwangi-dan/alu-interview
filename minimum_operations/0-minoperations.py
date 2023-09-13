@@ -53,6 +53,6 @@ def minOperations(n):
             for i in range(2, n):
                 if n % i == 0:
                     mo += i
-                    return mo + minoperations(int(n/i))
+                    return mo + minOperations(int(n/i))
     else:
         return 0
