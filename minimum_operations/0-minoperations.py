@@ -37,7 +37,7 @@ def primeNumber(x):
         return False
 
 
-def minoperations(n):
+def minOperations(n):
     """
     Function to find the minimum number of operations
     """
