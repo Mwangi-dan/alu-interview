@@ -2,12 +2,14 @@
 """
 Module with function to calculate square units of water retained after it rains
 """
+
+
 def rain(walls):
     """
     Function to calculate the volume of water stored between walls
 
     walls: (list) list of non-negative integers
-    
+
     returns: (int) indicating total amount of rainwater collected
     """
     volume = 0
